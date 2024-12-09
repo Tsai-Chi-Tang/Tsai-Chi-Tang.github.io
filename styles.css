@@ -16,7 +16,7 @@ body {
 /* 標題欄 */
 header {
     background-color: rgba(255, 255, 255, 0.7); /* 半透明背景 */
-    height: 12.5%; /* 1/8 的高度 */
+    height: 15%; /* 1/8 的高度 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@ main .blessing {
     text-shadow: 2px 2px 5px black;
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
