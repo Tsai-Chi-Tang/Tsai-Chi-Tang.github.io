@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>安中祈福 願願成真</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 加入 CSS 調整留言系統的位置 */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* 在主內容和留言系統之間留空間 */
+            align-items: center;
+            min-height: 100vh; /* 滿屏高度 */
+            margin: 0;
+        }
+
+        .comment-section {
+            margin-top: auto; /* 將留言系統推至頁面底部 */
+            width: 100%;
+            max-width: 800px;
+            padding: 10px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
     <!-- 背景音樂 -->
@@ -22,14 +42,19 @@
     <main>
         <div class="blessing">
             親愛的朋友們:<br>
-            願我們用文字傳遞祝福的力量！</div>
+            願我們用文字傳遞祝福的力量！
+        </div>
     </main>
-    <script src="https://utteranc.es/client.js"
-        repo="Tsai-Chi-Tang/Tsai-Chi-Tang.github.io/"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-    </script>
+
+    <!-- 留言系統 -->
+    <div class="comment-section">
+        <script src="https://utteranc.es/client.js"
+                repo="Tsai-Chi-Tang/Tsai-Chi-Tang.github.io/"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+        </script>
+    </div>
 </body>
 </html>
