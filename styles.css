@@ -27,7 +27,7 @@ header {
 
 /* 標題文字 */
 header h1 {
-    font-size: 2rem; /* 調整大小 */
+    font-size: 3rem; /* 調整大小 */
     color: #FF7043; /* 溫馨橘色 */
     margin: 0;
 }
