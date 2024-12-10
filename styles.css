@@ -53,3 +53,24 @@ main .blessing {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem; /* 縮小標題字體 */
+    }
+    main .blessing {
+        font-size: 0.9rem; /* 縮小祈福語字體 */
+        top: 50%; /* 調整位置 */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2rem; /* 再次縮小標題字體 */
+    }
+    main .blessing {
+        font-size: 0.8rem; /* 再次縮小祈福語字體 */
+        top: 55%; /* 再次調整位置 */
+    }
+}
